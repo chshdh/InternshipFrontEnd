@@ -2,7 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import request from "@/utils/request";
 request({
-  url: '/welcome',
+  url: '/welcme',
   method: 'get'
 }).then((resp) => {
   console.log(resp)
